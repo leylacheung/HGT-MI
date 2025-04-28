@@ -16,9 +16,10 @@ This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip
 
 
 ### Installation
-# Clone the repository
+#### Clone the repository
 https://github.com/leylacheung/Hierarchical-Graph-Transformer.git
 
-# Create conda environment
+#### Create conda environment
 conda env create -f requirements.txt
 
+### Main results
