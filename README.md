@@ -7,3 +7,18 @@
 The organic solar cell is considered one of the most important solar technologies and promises to produce low-cost solar cells by roll-to-roll printing. However, the advancement of the OSC field has been relatively slow due to the labor-intensive and time-consuming process of material synthesis and device optimizations, severely limiting rapid, large-scale screening of novel materials. To reduce the cost of trial-and-error experimentation and accelerate their development of OSCs, it is essential to develop computational models to efficiently and accurately predict the material properties of OSCs. Existing computational approaches, including traditional Graph Neural Networks (GNNs), are often inadequate to capture the complex aromatic ring structures and donor-acceptor interactions critical for OSC performance. To address this, we first propose RingFormer, a hierarchical graph transformer that models individual molecules at both the atom and ring levels. Second, we further introduce a MotiFormer model, which explicitly captures donor-acceptor intermolecular dynamics through motif-level representations. Extensive evaluations across seven datasets demonstrate significantly enhanced prediction performance over existing models, showcasing their strength in representing complex molecular structures and interactions. These results highlight the effectiveness of our approaches in accurately modeling molecular structures and interactions, substantially reducing reliance on experimental procedures and accelerating the discovery of high-performance OSC materials. More broadly, our framework offers a flexible and generalizable approach that can be extended to other material systems, such as perovskite solar cells, batteries, and beyond.
 
 
+### Dependencies
+
+This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) for managing packages and environments.
+
+- **Programming Language**: Python 3.10  
+- **Environment Manager**: [Anaconda Distribution](https://www.anaconda.com/)
+
+
+### Installation
+# Clone the repository
+https://github.com/leylacheung/Hierarchical-Graph-Transformer.git
+
+# Create conda environment
+conda env create -f requirements.txt
+
