@@ -11,8 +11,8 @@ The organic solar cell is considered one of the most important solar technologie
 
 This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) for managing packages and environments.
 
-- **Programming Language**: Python 3.10  
-- **Environment Manager**: [Anaconda Distribution](https://www.anaconda.com/)
+- **Python version**: 3.10  
+
 
 
 ### Installation
