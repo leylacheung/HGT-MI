@@ -11,13 +11,13 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/45c24261-876e-49db-beac-4f78497f0c83" width="800">
   <br>
-  <em>Figure 2. RingFormer overview.</em>
+  <em>Figure 2. RingFormer overview. (a) Atom-, inter-, and ring-level graphs derived from the molecule. (b) Stacked RingFormer layers combining an atom-level GNN, an inter-level GNN, and a ring-level cross-attention. (c) Ring-level attention mechanism with a virtual node.</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13c08bc3-8dcc-4cae-8bd7-221eb4c84cbc" width="800">
   <br>
-  <em>Figure 3. MotiFormer architecture.</em>
+  <em>Figure 3. Hierarchical Graph of MotiFormer's architecture, demonstrating donor-acceptor interactions through motif-level, inter-level, and atom-level graph processing, with cross-attention and message-passing employed to predict OSC properties.</em>
 </p>
 
 
