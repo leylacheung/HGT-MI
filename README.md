@@ -50,17 +50,6 @@ The organic solar cell is considered one of the most important solar technologie
 
 ### Main results
 
-<p align="center">
-  <em><b>Comparison of PCE (%) prediction performance between RingFormer and baseline methods (Test MAE ↓)</b></em><br>
-  <img src="https://github.com/user-attachments/assets/647ef04d-4f87-4391-b4c6-95a8e54e4657" width="800">
-</p>
-
-<p align="center">
-  <em><b>Performance comparison of MotiFormer and baseline methods on donor-acceptor datasets. </b></em><br>
-  <img src="https://github.com/user-attachments/assets/3639a0e2-2fbc-4d03-beac-3eae98c4aab8" width="600">
-</p>
-
-
 
 ### Dependencies
 
