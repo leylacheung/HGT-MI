@@ -27,7 +27,7 @@ The organic solar cell is considered one of the most important solar technologie
 
 ### Datasets
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/23c4660c-ffa1-48e6-a17a-dff2da81f54b" width="400">
+  <img src="https://github.com/user-attachments/assets/23c4660c-ffa1-48e6-a17a-dff2da81f54b" width="600">
   <br>
   <em>Dataset statistics.</em>
 </p>
@@ -42,7 +42,7 @@ The organic solar cell is considered one of the most important solar technologie
 
 <p align="center">
   <em><b>Performance comparison of MotiFormer and baseline methods on donor-acceptor datasets. </b></em><br>
-  <img src="https://github.com/user-attachments/assets/cfa42b5c-e749-42ab-a405-090603105caf" width="800">
+  <img src="https://github.com/user-attachments/assets/cfa42b5c-e749-42ab-a405-090603105caf" width="600">
 </p>
 
 ### Dependencies
