@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cd880d5d-8e9b-4e2d-b4fd-89e471122d0d)# Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
+# Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
