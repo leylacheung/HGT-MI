@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
   <br>
-  <em>Figure 1. overview.</em>
+  <em>Figure 1. Donor-acceptor interaction.</em>
 </p>
 
 ## Overall Framework
@@ -17,7 +17,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/13c08bc3-8dcc-4cae-8bd7-221eb4c84cbc" width="800">
   <br>
-  <em>Figure 3. MotiFormer architecture.</em>
+  <em>Figure 3. Hierarchical Graph of MotiFormer's architecture, demonstrating donor-acceptor interactions through motif-level, inter-level, and atom-level graphs.</em>
 </p>
 
 
