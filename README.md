@@ -25,20 +25,6 @@ The organic solar cell is considered one of the most important solar technologie
 </p>
 
 
-### Dependencies
-
-This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) for managing packages and environments.
-
-- **Python version**: 3.10  
-
-
-### Installation
-#### Clone the repository
-https://github.com/leylacheung/Hierarchical-Graph-Transformer.git
-
-#### Create conda environment
-conda env create -f requirements.txt
-
 ### Datasets
 <p align="center">
   <img src="https://github.com/user-attachments/assets/23c4660c-ffa1-48e6-a17a-dff2da81f54b" width="400">
@@ -54,11 +40,24 @@ conda env create -f requirements.txt
 </p>
 
 
+<p align="center">
+  <em><b>Performance comparison of MotiFormer and baseline methods on donor-acceptor datasets. </b></em><br>
+  <img src="https://github.com/user-attachments/assets/cfa42b5c-e749-42ab-a405-090603105caf" width="800">
+</p>
+
+### Dependencies
+
+This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip](https://pip.pypa.io/en/stable/) for managing packages and environments.
+
+- **Python version**: 3.10  
 
 
+### Installation
+#### Clone the repository
+https://github.com/leylacheung/Hierarchical-Graph-Transformer.git
 
-
-
+#### Create conda environment
+conda env create -f requirements.txt
 
 
 
