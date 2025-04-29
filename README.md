@@ -1,20 +1,21 @@
 # Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="600">
+  <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
   <br>
   <em>Figure 1. overview.</em>
 </p>
+
 ## Overall Framework
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/45c24261-876e-49db-beac-4f78497f0c83" width="600">
+  <img src="https://github.com/user-attachments/assets/45c24261-876e-49db-beac-4f78497f0c83" width="800">
   <br>
   <em>Figure 2. RingFormer overview.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/13c08bc3-8dcc-4cae-8bd7-221eb4c84cbc" width="600">
+  <img src="https://github.com/user-attachments/assets/13c08bc3-8dcc-4cae-8bd7-221eb4c84cbc" width="800">
   <br>
   <em>Figure 3. MotiFormer architecture.</em>
 </p>
