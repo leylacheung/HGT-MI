@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/890eea5c-ba90-4ff5-913f-dd3186d85022)# Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
+# Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
@@ -41,7 +41,7 @@ conda env create -f requirements.txt
 
 ### Datasets
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/23c4660c-ffa1-48e6-a17a-dff2da81f54b" width="500">
+  <img src="https://github.com/user-attachments/assets/23c4660c-ffa1-48e6-a17a-dff2da81f54b" width="400">
   <br>
   <em>Dataset statistics.</em>
 </p>
@@ -49,10 +49,10 @@ conda env create -f requirements.txt
 ### Main results
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/647ef04d-4f87-4391-b4c6-95a8e54e4657" width=600">
-  <br>
-  <em>Comparison of PCE (%) prediction performance between RingFormer and baseline methods using test MAE.</em>
+  <em><b>Comparison of PCE (%) prediction performance between RingFormer and baseline methods (Test MAE ↓)</b></em><br>
+  <img src="https://github.com/user-attachments/assets/647ef04d-4f87-4391-b4c6-95a8e54e4657" width="800">
 </p>
+
 
 
 
