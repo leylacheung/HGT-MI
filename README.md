@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
   <br>
-  <em>Figure 1. Donor-acceptor interaction.</em>
+  <em>Figure 1. Illustration of the working  mechanism of organic solar cells, showing charge separation and energy level alignment between donor and  acceptor.</em>
 </p>
 
 
