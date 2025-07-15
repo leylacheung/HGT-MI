@@ -1,4 +1,5 @@
-# Hierarchical Graph Transformer for Molecular Property Prediction in Organic Solar Cells
+# Hierarchical Graph Transformer with Multi-level Interactions for Molecular Property Prediction in Organic Solar Cells
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5793ad7a-70bb-4579-9358-983ffe19c2ee" width="500">
@@ -8,15 +9,16 @@
 
 
 ## Motivation
-The organic solar cell is considered one of the most important solar technologies, as it can produce low-cost solar panels by roll-to-roll production similar to printing newspapers. However, the advancement of the OSC field has been relatively slow due to the labor-intensive and time-consuming process of material synthesis and device optimizations, severely limiting rapid screening of novel materials. To reduce the cost of trial-and-error experimentation and accelerate the development of OSCs, it is essential to develop computational models that can accurately predict the properties of OSC materials. Existing computational approaches are often inadequate to capture the complex ring-based structures of OSC molecules and also overlook critical donor-acceptor interactions that are crucial for OSC property predictions. To address this issue, we first propose a RingFormer model, a hierarchical graph transformer that models not only the atom but also the ring-level structural features of OSC molecules. Second, we further introduce a MotiFormer model, which explicitly captures donor-acceptor intermolecular interactions through motif-level representations. Comprehensive evaluations across seven datasets demonstrate significantly enhanced prediction performance over existing models, showcasing their strength in representing complex molecular structures and interactions. Our model substantially reduces reliance on trial-and-error experiments and greatly accelerates the development of high-performance OSC materials. More importantly, our framework offers a flexible and broadly applicable approach that can be extended to other material systems, such as perovskite solar cells, light-emitting diodes, and batteries.
+The organic solar cell is considered one of the most promising solar technologies, as it can produce low-cost solar panels through roll-to-roll printing similar to the production of newspapers. However, the development of OSCs has been hindered by labor-intensive and time-consuming processes involved in material synthesis and device optimization, significantly limiting the rapid identification and screening of novel materials. To accelerate the development of the technology, it is crucial to develop reliable computational models capable of predicting material or device properties of OSCs. Existing computational approaches often neglect critical donor-acceptor interactions that determine the performance of OSC devices. To address this gap, we propose a Hierarchical Graph Transformer with Multi-level Interactions (HGT-MI) model explicitly designed to capture donor-acceptor intermolecular interactions using hierarchical, multi-scale representations. Comprehensive evaluations demonstrate significantly enhanced prediction performance over existing models, showcasing its strength in representing complex molecular structures and interactions. Our model substantially reduces reliance on trial-and-error experiments and greatly accelerates the development of high-performance OSC materials. More importantly, the versatility and generalizability of our framework make it broadly applicable to other emerging material systems, including perovskite solar cells, light-emitting diodes, and battery technologies.
+
 
 
 ## Overall Framework
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/45c24261-876e-49db-beac-4f78497f0c83" width="800">
+  <img src="https://github.com/user-attachments/assets/e0733af8-0cf6-45d6-8e27-40cacac7398d" width="800">
   <br>
-  <em>Figure 2. RingFormer overview.(a) Atom-, inter-, and ring-level graphs derived from the molecule. (b) Stacked RingFormer layers combining an atom-level GNN, an inter-level GNN, and a ring-level cross-attention. (c) Ring-level attention mechanism with a virtual node.</em>
+  <em>Figure 2. HGT-MI overview. (a) Multi-level Embedding Extraction. (b) Multi-level Interaction Modeling. (c) Prediction module.!</em>
 </p>
 
 <p align="center">
