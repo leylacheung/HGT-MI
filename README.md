@@ -42,7 +42,7 @@ This project recommends using [Conda](https://docs.conda.io/en/latest/) and [pip
 
 ### Installation
 #### Clone the repository
-https://github.com/leylacheung/Hierarchical-Graph-Transformer.git
+https://github.com/leylacheung/HGT-MI.git
 
 #### Create conda environment
 conda env create -f requirements.txt
