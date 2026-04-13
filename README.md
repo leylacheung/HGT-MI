@@ -47,8 +47,33 @@ https://github.com/leylacheung/HGT-MI.git
 #### Create conda environment
 conda env create -f requirements.txt
 
+### Running Pipeline
+The overall workflow of HGT-MI consists of three stages: data preprocessing, data loading, and model training.
 
+#### Step 1: Data preprocessing
 
+In the first stage, the raw molecular data are processed to construct motif-level graphs. This step includes SMILES parsing, BRICS-based motif decomposition, atom-to-motif mapping, and motif graph construction.
 
+```bash
+python motif_graph.py
+```
+After preprocessing, the generated motif graphs will be saved for subsequent training and evaluation.
 
+#### Step 2: Data loading
 
+In the second stage, the processed atom-level and motif-level graphs are loaded and organized into donor-acceptor pair samples. The dataloader prepares the data for model input and splits the dataset into training, validation, and test sets.
+
+```bash
+python dataloader.py
+```
+#### Step 3: Model training
+
+After data preparation, model parameters can be configured and the training process can be launched.
+```bash
+python train.py --config configs
+```
+Users can modify the configuration file to adjust hyperparameters such as the hidden dimension, number of layers, batch size, and learning rate, or to select different datasets.
+
+### Demo
+
+A demo version will be released in future updates. It will provide an end-to-end example showing how to preprocess donor-acceptor pairs, load the data, run the trained model, and obtain predicted PCE values.
