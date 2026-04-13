@@ -1,4 +1,4 @@
-# Modeling Multi-Level Donor-Acceptor Interactions for Device-Level Efficiency Prediction in Organic Solar Cells<img width="468" height="42" alt="image" src="https://github.com/user-attachments/assets/c40df7e2-49c7-42e9-b249-fd761766949e" />
+# Modeling Multi-Level Donor-Acceptor Interactions for Device-Level Efficiency Prediction in Organic Solar Cells
 
 
 
