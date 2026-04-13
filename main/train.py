@@ -53,7 +53,7 @@ def train(args, filename=None):
         maes, mapes, mses = [], [], []
         best_vals = []
     
-        num_motif_edge_types = num_motif_edge_types
+        num_motif_edge_types = 102
         
         dataloader_train,  dataloader_test, dataloader_val, transformer, meta = get_dataset_het(args,transform=None)
         num_classes = meta['num_classes']
