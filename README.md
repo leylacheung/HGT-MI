@@ -55,7 +55,7 @@ The overall workflow of HGT-MI consists of three stages: data preprocessing, dat
 In the first stage, the raw molecular data are processed to construct motif-level graphs. This step includes SMILES parsing, BRICS-based motif decomposition, atom-to-motif mapping, and motif graph construction.
 
 ```bash
-python motif_graph.ipynb
+jupyter notebook motif_graph.ipynb
 ```
 After preprocessing, the generated motif graphs will be saved for subsequent training and evaluation.
 
@@ -70,16 +70,16 @@ python dataloader.py
 
 After data preparation, model parameters can be configured and the training process can be launched.
 ```bash
-python train.py --config configs
+python train.py --config configs/default.yaml
 ```
 Users can modify the configuration file to adjust hyperparameters such as the hidden dimension, number of layers, batch size, and learning rate, or to select different datasets.
 
-🎯 Demo (Coming Soon)
+### 🎯 Demo (Coming Soon)
 
 We will provide a simple demo to illustrate the full pipeline, including:
 
-Input: donor and acceptor SMILES
-Output: predicted PCE
-Visualization of multi-level interactions
+- Input: donor and acceptor SMILES  
+- Output: predicted PCE  
+- Visualization of multi-level interactions  
 
 Stay tuned!
