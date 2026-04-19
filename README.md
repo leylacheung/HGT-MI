@@ -75,12 +75,4 @@ python train.py --config configs/default.yaml
 ```
 Users can modify the configuration file to adjust hyperparameters such as the hidden dimension, number of layers, batch size, and learning rate, or to select different datasets.
 
-### 🎯 Demo (Coming Soon)
 
-We will provide a simple demo to illustrate the full pipeline, including:
-
-- Input: donor and acceptor SMILES  
-- Output: predicted PCE  
-- Visualization of multi-level interactions  
-
-Stay tuned!
